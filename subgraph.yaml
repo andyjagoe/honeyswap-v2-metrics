@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: Uniswap is a decentralized protocol for automated token exchange on Ethereum.
-repository: https://github.com/graphprotocol/uniswap-v2-subgraph
+description: Honeyswap is a decentralized protocol for automated token exchange on xDai.
+repository: https://github.com/andyjagoe/honeyswap-v2-metrics
 schema:
   file: ./schema.graphql
 dataSources:
@@ -43,6 +43,7 @@ templates:
       language: wasm/assemblyscript
       file: ./src/mappings/core.ts
       entities:
+        - Buyer
         - Pair
         - Token
       abis:
